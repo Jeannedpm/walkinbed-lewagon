@@ -1,0 +1,154 @@
+
+body {
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #2dc997;
+}
+
+a:hover, a:active, a:focus {
+  color: #2dca98;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(walkinbed.png);
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed
+}
+
+
+
+
+#about {
+  background: white;
+  padding: 20px ;
+}
+
+
+#about .about-container {
+  background: white;
+  padding-top: 10px;
+
+}
+
+
+#about .about-container .title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+.btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #737271
+}
+#image {
+  padding-right: 200px;
+}
+
+#facts {
+  background: #C6BFC4;
+  padding: 80px;
+}
+
+#facts .counters span {
+  font-size: 48px;
+  display: block;
+  color: white;
+}
+
+#facts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+
+#team {
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#team .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+}
+
+#team .member .pic img {
+  max-width: 100%;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#team .member .social {
+  margin-top: 15px;
+}
+
+#team .member .social a {
+  color: #b3b3b3;
+}
+
+#team .member .social a:hover {
+  color: #2dc997;
+}
+
+
+#footer {
+  background: #343b40;
+  padding: 30px 0;
+}
